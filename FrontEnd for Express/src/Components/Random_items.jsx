@@ -15,7 +15,7 @@ export default function Random_items() {
           return;
         }
         
-        const response = await axios.get("http://localhost:3000/items/random_items", {
+        const response = await axios.get("https://rule-mining-server.vercel.app/items/random_items", {
           headers: {
             Authorization: `Bearer ${tokenFromStorage}`
           }

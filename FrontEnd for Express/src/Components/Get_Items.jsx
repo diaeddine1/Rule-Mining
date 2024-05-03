@@ -15,7 +15,7 @@ export default function Get_Items() {
         return;
       }
       
-      const response = await axios.get("http://localhost:3000/items/all_items", {
+      const response = await axios.get("https://rule-mining-server.vercel.app/items/all_items", {
         headers: {
           Authorization: `Bearer ${tokenFromStorage}`
         }
