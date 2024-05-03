@@ -5,7 +5,7 @@ export default function Navbar() {
     <div className='navbar'>
       
      <a href='/Items'>Items</a>
-     <a href='/'>Random Items</a>
+     <a href='/RandomItems'>Random Items</a>
      <a href='/'>Login</a>
     </div>
   )

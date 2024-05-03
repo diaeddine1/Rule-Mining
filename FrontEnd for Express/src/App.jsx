@@ -10,25 +10,24 @@ function App() {
   
 
   return (
-    <>
-    {/* <div className='listing'> */}
-    <Navbar/>
+  
+
+     <BrowserRouter>
+     <Navbar/>
     <Get_Items/>
     <Random_items/>
-    {/* </div> */}
-     <BrowserRouter>
 
         <Routes>
           {/* <Route path="/" element={<Home email={email}  />} /> */}
           <Route path="/" element={<Login/>} />
-          <Route path="/" element={<Get_Items/>} />
-          <Route path="/" element={<Random_items/>} />
+          <Route path="/Items" element={<Get_Items/>} />
+          <Route path="/RandomItems" element={<Random_items/>} />
         </Routes>
       </BrowserRouter>
    
      
     
-    </>
+    
   )
 }
 
