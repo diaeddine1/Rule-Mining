@@ -9,7 +9,7 @@ const swaggerUI = require("swagger-ui-express")
 const swaggerJSDoc = require("swagger-jsdoc")
 
 // app.use(cors())
-app.use(cors({origin:["https://rule-mining-client.vercel.app"],methods: ["POST","GET"],credentials:true}))
+app.use(cors({origin:["https://rule-mining-client.vercel.app/"],methods: ["POST","GET"],credentials:true}))
 app.use(express.json())
 app.use('/items',Route)
 app.use('/auth',auth)
