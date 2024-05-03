@@ -12,6 +12,7 @@ app.use(cors())
 app.use(express.json())
 app.use('/items',Route)
 app.use('/auth',auth)
+app.get("/", (req, res) => res.send("Express on Vercel"));
 
 const options = {
     definition:{
