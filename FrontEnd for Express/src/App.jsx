@@ -21,8 +21,8 @@ function App() {
         <Routes>
           {/* <Route path="/" element={<Home email={email}  />} /> */}
           <Route path="/" element={<Login/>} />
-          <Route path="/Items" element={<Get_Items/>} />
-          <Route path="/rule-mining-client.vercel.app/RandomItems" element={<Random_items/>} />
+          <Route path="/" element={<Get_Items/>} />
+          <Route path="/" element={<Random_items/>} />
         </Routes>
       </BrowserRouter>
    
