@@ -68,7 +68,7 @@ li{
 
 .card{
     margin-top: 100px;
-    
+    margin-left: 30px;
     height: 500px;
     width: 500px;
     background-color: lightblue;
@@ -79,3 +79,9 @@ li{
     border-radius: 10px;
 
 }
+
+.container{
+    display: flex;
+    flex-direction: row;
+}
+
