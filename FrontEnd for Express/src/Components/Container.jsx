@@ -96,7 +96,7 @@ export default function Container() {
 
 
         <div className="card">
-            <h1>Random randomitems</h1>
+            <h1>Random Items</h1>
             <button className='LoginButton' onClick={fetchrandomitems}>Get Random randomitems</button>
             <ul style={{height:"10px"}}>
             {randomitems.map(item => (
