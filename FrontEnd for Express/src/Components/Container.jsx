@@ -63,7 +63,7 @@ export default function Container() {
             return;
           }
           
-          const response = await axios.get("https://rule-mining-server.vercel.app/randomitems/random_randomitems", {
+          const response = await axios.get("https://rule-mining-server.vercel.app/randomitems/items_randomitems", {
             headers: {
               Authorization: `Bearer ${tokenFromStorage}`
             }
