@@ -14,8 +14,10 @@ body{
     background-color: wheat;
     margin: 0;
     padding: 0;
+    position: relative;
     
 }
+
 .navbar{
     width: 100vw;
     height: 50px;
